@@ -82,6 +82,7 @@ padding:5px
 
 }
 .all-flower-box{
+    margin-bottom: 100px;
     align-items: center;
 }
 .flower-box {
@@ -98,11 +99,44 @@ padding:5px
     flex-direction: column;
     align-items: center;
 }
+.dalia-box {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background:  rgba(5, 151, 160, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tulip-box {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background:  rgba(71, 125, 17, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    overflow:visible;
+}
 .flower-icon {
     width: 310px;
     height: 428px;
     padding: 110px 78px 0px 76px;
     
+
+}
+.dalia-icon {
+    width: 310px;
+    height: 428px;
+    padding: 130px 78px 0px 76px;
+
+}
+tulip-icon {
+    width: 310px;
+    height: 428px;
+    padding: 130px 78px 0px 76px;
 
 }
 .icon-name{
@@ -277,5 +311,14 @@ line-height: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.sec {
+    padding-top: 100px;
+
+}
+.thi {
+    padding-top: 70px;
+
 }
 
