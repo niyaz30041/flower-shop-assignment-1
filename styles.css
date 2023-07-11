@@ -1,7 +1,7 @@
 /*header related styles*/
 .header {
     background-color: #E554731A;
-    width: 1920px;
+    width: 100%;
 height: 850px;
 flex-shrink: 0;
 margin:0px;
@@ -59,7 +59,8 @@ font-weight: 400;
 line-height: 30px;
 }
 .flowers-featured {
-    margin: 316px;
+    margin: 240px 0px 0px 240px;
+    gap: 24px;
 }
 .featured-title {
     color: #272727;
@@ -83,16 +84,26 @@ padding:5px
 .all-flower-box{
     align-items: center;
 }
+.flower-box {
+    display:flex;
+    gap: 24px;
+}
 .box{
     width: 464px;
-height: 538;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .flower-icon {
-    flex-shrink: 0px;
-    padding-bottom: 0px;
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 76px;
+    
+
 }
 .icon-name{
     color: #272727;
@@ -102,30 +113,29 @@ line-height: 35px;
 text-decoration-line: underline;
 }
 .special-offer {
+    padding: 240px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
 
 }
 .offer-flower-pic {
+    margin-left: 129px;
     width: 318px;
 height: 420px;
 flex-shrink: 0;
 }
 .text-primary {
     color: #E55473;
-    display: flex;
 }
 .offer-title{
-    align-items: center;
-    ;
+    
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
 .title {
     color: #272727;
 font-family: Lato;
-font-size: 40px;
 font-style: normal;
-font-weight: 800;
-line-height: normal;
+font-weight: 800px;
 }
 .offer-description {
     color: rgba(39, 39, 39, 0.60);
@@ -151,3 +161,35 @@ gap: 10px;
 border-radius: 8px;
 background: #E55473;
 }
+.rose-box {
+    display:flex;
+    gap: 24px;
+}
+.instagram-title {
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.instagram-content {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.all-rose-box {margin: 0px;
+}
+.instagram{
+    margin: 308px 240px 100px 240px;
+}
+    
